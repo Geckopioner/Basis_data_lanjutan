@@ -1,0 +1,20 @@
+DATA SEMI TERSTRUKTUR
+
+Data semi-terstruktur mengandung format data terstruktur dan tidak terstruktur.
+Walaupun belum diklasifikasi oleh repository tertentu (database), namun mengandung informasi yang penting.
+Contohnya adalah data dalam bentuk file csv, file xml, dan file json.
+
+Kelebihan :
+- Data tidak dibatasi oleh skema/tabel tetap
+- Memungkinkan untuk melihat data terstruktur sebagai data semi-terstruktur
+- Mendukung pengguna yang tidak dapat mengekspresikan kebutuhan mereka dalam SQL
+- Dapat menangani dengan mudah dengan heterogenitas sumber
+
+Kelemahan :
+- Kurangnya skema yang kaku membuat penyimpanan data menjadi sulit
+- Menafsirkan hubungan antara data sulit karena tidak ada pemisahan skema dan data
+- Queries kurang efisien dibandingkan dengan data terstruktur
+
+JSON (JavaScript Object Notation)
+JSON adalah format file berbasis teks yang umumnya digunakan dalam proses pertukaran data antara server dan klien.
+File JSON memiliki ekstensi .json serta menggunakan teks yang sama-sama bisa dibaca oleh manusia dan dipahami oleh komputer.
