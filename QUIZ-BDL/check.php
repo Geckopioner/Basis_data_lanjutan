@@ -37,7 +37,8 @@
                         <td><?php echo $pelanggan->alamat ?></td>
                         <td><?php echo $pelanggan->email ?></td>
                         <td><?php echo $pelanggan->pekerjaan ?></td>
-                        <td>  <a href="edit.php?key=<?php echo $key ?>" class="btn btn-dark">Edit</a>
+                        <td>  <a href="edit.php?key=<?php echo $key ?>" class="btn btn-dark">Edit</a></td>
+                        <td>  <a href="hapuskan.php?key=<?php echo $key ?>" class="btn btn-danger">Hapus</a>
                         </td>   
                     </tr>
                   <?php  }  ?>

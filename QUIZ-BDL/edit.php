@@ -21,23 +21,23 @@ $key = $_GET['key'];
             
             <div class="mt-4 ms-5">
                 <label for="id" class="form-label text-dark">ID</label>
-                <input type="text"value="<?=$data[$key]->id_pelanggan?>" name="id" id="id" class="form-control">
+                <input type="text"value="<?=$data_pelanggan[$key]->id_pelanggan?>" name="id" id="id" class="form-control">
                
             </div>
 
             <div class="mb-4 ms-5">
                 <label for="nama" class="form-label text-dark" text-white>NAMA</label>
-                <input type="text"value="<?=$data[$key]->nama_pelanggan?>" name="nama" id="nama" class="form-control">
+                <input type="text"value="<?=$data_pelanggan[$key]->nama_pelanggan?>" name="nama" id="nama" class="form-control">
             </div>
 
             <div class="mb-4 ms-5">
                 <label for="alamat" class="form-label text-dark">ALAMAT</label>
-                <input type="text" value="<?=$data[$key]->alamat?>" name="alamat" id="alamat" class="form-control">
+                <input type="text" value="<?=$data_pelanggan[$key]->alamat?>" name="alamat" id="alamat" class="form-control">
             </div>
                
             <div class="mb-4 ms-5">
                 <label for="email" class="form-label text-dark">EMAIL</label>
-                <input type="text" value="<?=$data[$key]->email?>" name="email" id="email" class="form-control">
+                <input type="text" value="<?=$data_pelanggan[$key]->email?>" name="email" id="email" class="form-control">
             </div>
 
             <div class="mb-4 ms-5">

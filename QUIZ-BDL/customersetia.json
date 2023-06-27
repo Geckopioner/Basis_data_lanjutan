@@ -1,0 +1,12 @@
+[
+    {
+        "id_pelanggan": "S01",
+        "nama_pelanggan": {
+            "nama_depan": "Aamon",
+            "nama_belakang": "Akira"
+        },
+        "alamat": "Kyoto",
+        "email": "hatori123@gmail.com",
+        "pekerjaan": "kurir"
+    }
+]
